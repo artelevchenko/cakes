@@ -1,0 +1,69 @@
+body {
+  font-family: "Trirong", serif;
+  background-color: #f9f9f9;
+}
+
+header {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+
+}
+
+main {
+  padding: 0 300px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+main .label {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  width: 360px;
+}
+
+main .label img{
+  height: 240px;
+  border-radius: 10px;
+}
+
+main .label h2 {
+  color: #bfa98b;
+}
+
+main .label-text {
+height: 190px;
+}
+
+main .label-price {
+  font-size: 32px;
+  font-weight: 500;
+  position: relative;
+}
+
+main .label-price span {
+  color: #bfa98b;
+}
+
+main .label-price button {
+  background-color: #bfa98b;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-size: 32px;
+  font-weight: 500;
+  padding: 5px 30px;
+  position: absolute;
+  left: 175px;
+}
+
+main .label-price button:hover {
+  background-color: black;
+}
+
+footer {
+  text-align: center;
+}

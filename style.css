@@ -19,10 +19,16 @@ main {
 }
 
 main .label {
+  display: flex;
+  flex-direction: column;
   background-color: white;
   border-radius: 20px;
   padding: 20px;
   width: 360px;
+}
+
+main .label-img{
+  flex: 1;
 }
 
 main .label img{
@@ -34,8 +40,14 @@ main .label h2 {
   color: #bfa98b;
 }
 
+main .label-description {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+}
+
 main .label-text {
-height: 190px;
+  flex: 1;
 }
 
 main .label-price {
